@@ -1,0 +1,20 @@
+4 Layer architecture
+
+UI - what to show on frontend and navigation
+Note: Never write api layer code in UI 
+=> Component
+=> Pages
+
+Hook - for managing state and api layers
+=> hooks 
+
+State - storing the data on the frontend 
+=> auth.context.jsx
+=> ai.context.jsx
+
+API - How frontend interacts with the backend
+=> services
+    => auth.api.js
+
+
+
